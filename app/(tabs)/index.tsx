@@ -224,11 +224,7 @@ export default function App() {
           )}
           keyExtractor={(item: DocumentData) => item.id}
           renderItem={({ item, index }: { item: DocumentData; index: number }) => (
-          <Animated.View
-            entering={Animated.FadeIn.duration(300)}
-            exiting={Animated.FadeOut.duration(300)}
-            layout={Animated.Layout.springify()}
-          >
+            <View>
               <Card style={{ borderRadius: 10, marginVertical: 8, padding: 12, backgroundColor: themeColors.card, elevation: 3 }}>
                 <View style={{ flexDirection: 'row', alignItems: 'center' }}>
                   <Avatar.Text size={40} label={item.avatar || item.name?.charAt(0)} style={{ backgroundColor: '#2196f3' }} />
@@ -242,7 +238,7 @@ export default function App() {
                   </View>
                 </View>
               </Card>
-            </Animated.View>
+            </View>
           )}
         />
       </View>
