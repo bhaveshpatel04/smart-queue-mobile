@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
@@ -48,3 +49,27 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+=======
+# 📱 Smart Queue App
+
+A simple and smart queue management system built with **React Native**, **Expo**, and **Firebase**.
+
+### 🚀 Features
+
+- 📥 Join a live queue with name and phone number
+- 👤 Upload and display profile avatars
+- 📃 Real-time queue updates with Firebase
+- 📊 Admin login with full queue control
+- 🌙 Dark mode toggle
+- 🔍 Search users in the queue (admin only)
+- ⏳ Shows estimated wait time
+
+---
+
+### 🛠 Tech Stack
+
+- **React Native** (with Expo)
+- **Firebase** (Firestore)
+- **react-native-paper** (for UI components)
+- **react-native-reanimated** (animations)
+>>>>>>> 8e28137d3f4e48025b31801c05c5ce3ed8caadc9
